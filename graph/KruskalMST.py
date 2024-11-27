@@ -17,8 +17,8 @@ class KruskalMST:
             if uf.union(u, v):
                 mst_sum  += w
                 mst_edge_count += 1
-            if mst_edge_count == self.n - 1:
-                return mst_sum
+                if mst_edge_count == self.n - 1:
+                    return mst_sum
         return -1
 
     
