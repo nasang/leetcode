@@ -1,8 +1,6 @@
 ---
 ---
 
-@use "sass:meta";
-
 html {
   font-size: 100%;
 }
@@ -43,4 +41,4 @@ nav {
   margin-top: 8px;
 }
 
-@include meta.load-css("highlights");
+@import "highlights";
