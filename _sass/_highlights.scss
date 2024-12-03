@@ -1,3 +1,4 @@
+@use "sass:color";
 highlight {
   background-color: #ffffff;
   padding: 5px 10px;
@@ -25,11 +26,6 @@ code {
     position: relative;
     margin: 0;
     padding: 1em;
-  }
-
-  .lineno {
-    padding-right: 24px;
-    color: lighten(#333332, 50);
   }
 
   .highlight .hll {
