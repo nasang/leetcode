@@ -22,12 +22,13 @@ title: LeetCode
 baseurl: "/leetcode" # the subpath of your site, e.g. /blog
 url: "https://nasang.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-footer-links:
-  dribbble:
-  email:
-  facebook:
-  flickr:
-  github: barryclark/jekyll-now
+defaults:
+  - scope:
+      path: "" # An empty string here means all files in the project
+      type: posts
+    values:
+      layout: post
+      permalink: /:title/
 
 # Build settings
 plugins:
