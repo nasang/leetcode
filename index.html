@@ -2,8 +2,9 @@
 layout: default
 ---
 
+{% assign sortedPosts = site.posts | sort: 'title' %}
 <div class="posts">
-  {% for post in site.posts %}
+  {% for post in sortedPosts %}
   <div class="entry">
     <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
   </div>
